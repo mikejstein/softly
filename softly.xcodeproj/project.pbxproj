@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272657AD1D067667006B5AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272657AC1D067667006B5AC0 /* AppDelegate.swift */; };
+		272657AF1D067667006B5AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272657AE1D067667006B5AC0 /* ViewController.swift */; };
+		272657B21D067667006B5AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272657B01D067667006B5AC0 /* Main.storyboard */; };
+		272657B41D067667006B5AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272657B31D067667006B5AC0 /* Assets.xcassets */; };
+		272657B71D067667006B5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272657B51D067667006B5AC0 /* LaunchScreen.storyboard */; };
+		272657C21D067667006B5AC0 /* softlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272657C11D067667006B5AC0 /* softlyTests.swift */; };
+		272657CD1D067667006B5AC0 /* softlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272657CC1D067667006B5AC0 /* softlyUITests.swift */; };
+		272657DB1D06768B006B5AC0 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272657DA1D06768B006B5AC0 /* Dot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272657BE1D067667006B5AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272657A11D067667006B5AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272657A81D067667006B5AC0;
+			remoteInfo = softly;
+		};
+		272657C91D067667006B5AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272657A11D067667006B5AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272657A81D067667006B5AC0;
+			remoteInfo = softly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272657A91D067667006B5AC0 /* softly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = softly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272657AC1D067667006B5AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		272657AE1D067667006B5AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		272657B11D067667006B5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		272657B31D067667006B5AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272657B61D067667006B5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272657B81D067667006B5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272657BD1D067667006B5AC0 /* softlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = softlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272657C11D067667006B5AC0 /* softlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = softlyTests.swift; sourceTree = "<group>"; };
+		272657C31D067667006B5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272657C81D067667006B5AC0 /* softlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = softlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272657CC1D067667006B5AC0 /* softlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = softlyUITests.swift; sourceTree = "<group>"; };
+		272657CE1D067667006B5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272657DA1D06768B006B5AC0 /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dot.swift; path = ../Dot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272657A61D067667006B5AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657BA1D067667006B5AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657C51D067667006B5AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272657A01D067667006B5AC0 = {
+			isa = PBXGroup;
+			children = (
+				272657AB1D067667006B5AC0 /* softly */,
+				272657C01D067667006B5AC0 /* softlyTests */,
+				272657CB1D067667006B5AC0 /* softlyUITests */,
+				272657AA1D067667006B5AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272657AA1D067667006B5AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272657A91D067667006B5AC0 /* softly.app */,
+				272657BD1D067667006B5AC0 /* softlyTests.xctest */,
+				272657C81D067667006B5AC0 /* softlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272657AB1D067667006B5AC0 /* softly */ = {
+			isa = PBXGroup;
+			children = (
+				272657DA1D06768B006B5AC0 /* Dot.swift */,
+				272657AC1D067667006B5AC0 /* AppDelegate.swift */,
+				272657AE1D067667006B5AC0 /* ViewController.swift */,
+				272657B01D067667006B5AC0 /* Main.storyboard */,
+				272657B31D067667006B5AC0 /* Assets.xcassets */,
+				272657B51D067667006B5AC0 /* LaunchScreen.storyboard */,
+				272657B81D067667006B5AC0 /* Info.plist */,
+			);
+			path = softly;
+			sourceTree = "<group>";
+		};
+		272657C01D067667006B5AC0 /* softlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				272657C11D067667006B5AC0 /* softlyTests.swift */,
+				272657C31D067667006B5AC0 /* Info.plist */,
+			);
+			path = softlyTests;
+			sourceTree = "<group>";
+		};
+		272657CB1D067667006B5AC0 /* softlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				272657CC1D067667006B5AC0 /* softlyUITests.swift */,
+				272657CE1D067667006B5AC0 /* Info.plist */,
+			);
+			path = softlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272657A81D067667006B5AC0 /* softly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272657D11D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softly" */;
+			buildPhases = (
+				272657A51D067667006B5AC0 /* Sources */,
+				272657A61D067667006B5AC0 /* Frameworks */,
+				272657A71D067667006B5AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = softly;
+			productName = softly;
+			productReference = 272657A91D067667006B5AC0 /* softly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272657BC1D067667006B5AC0 /* softlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272657D41D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softlyTests" */;
+			buildPhases = (
+				272657B91D067667006B5AC0 /* Sources */,
+				272657BA1D067667006B5AC0 /* Frameworks */,
+				272657BB1D067667006B5AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272657BF1D067667006B5AC0 /* PBXTargetDependency */,
+			);
+			name = softlyTests;
+			productName = softlyTests;
+			productReference = 272657BD1D067667006B5AC0 /* softlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		272657C71D067667006B5AC0 /* softlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272657D71D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softlyUITests" */;
+			buildPhases = (
+				272657C41D067667006B5AC0 /* Sources */,
+				272657C51D067667006B5AC0 /* Frameworks */,
+				272657C61D067667006B5AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272657CA1D067667006B5AC0 /* PBXTargetDependency */,
+			);
+			name = softlyUITests;
+			productName = softlyUITests;
+			productReference = 272657C81D067667006B5AC0 /* softlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272657A11D067667006B5AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mike Stein Online";
+				TargetAttributes = {
+					272657A81D067667006B5AC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					272657BC1D067667006B5AC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 272657A81D067667006B5AC0;
+					};
+					272657C71D067667006B5AC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 272657A81D067667006B5AC0;
+					};
+				};
+			};
+			buildConfigurationList = 272657A41D067667006B5AC0 /* Build configuration list for PBXProject "softly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272657A01D067667006B5AC0;
+			productRefGroup = 272657AA1D067667006B5AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272657A81D067667006B5AC0 /* softly */,
+				272657BC1D067667006B5AC0 /* softlyTests */,
+				272657C71D067667006B5AC0 /* softlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272657A71D067667006B5AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272657B71D067667006B5AC0 /* LaunchScreen.storyboard in Resources */,
+				272657B41D067667006B5AC0 /* Assets.xcassets in Resources */,
+				272657B21D067667006B5AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657BB1D067667006B5AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657C61D067667006B5AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272657A51D067667006B5AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272657AF1D067667006B5AC0 /* ViewController.swift in Sources */,
+				272657AD1D067667006B5AC0 /* AppDelegate.swift in Sources */,
+				272657DB1D06768B006B5AC0 /* Dot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657B91D067667006B5AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272657C21D067667006B5AC0 /* softlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272657C41D067667006B5AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272657CD1D067667006B5AC0 /* softlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272657BF1D067667006B5AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272657A81D067667006B5AC0 /* softly */;
+			targetProxy = 272657BE1D067667006B5AC0 /* PBXContainerItemProxy */;
+		};
+		272657CA1D067667006B5AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272657A81D067667006B5AC0 /* softly */;
+			targetProxy = 272657C91D067667006B5AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272657B01D067667006B5AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272657B11D067667006B5AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272657B51D067667006B5AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272657B61D067667006B5AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272657CF1D067667006B5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		272657D01D067667006B5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272657D21D067667006B5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = softly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		272657D31D067667006B5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = softly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		272657D51D067667006B5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = softlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/softly.app/softly";
+			};
+			name = Debug;
+		};
+		272657D61D067667006B5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = softlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/softly.app/softly";
+			};
+			name = Release;
+		};
+		272657D81D067667006B5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = softlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = softly;
+			};
+			name = Debug;
+		};
+		272657D91D067667006B5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = softlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mso.softlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = softly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272657A41D067667006B5AC0 /* Build configuration list for PBXProject "softly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272657CF1D067667006B5AC0 /* Debug */,
+				272657D01D067667006B5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272657D11D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272657D21D067667006B5AC0 /* Debug */,
+				272657D31D067667006B5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272657D41D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272657D51D067667006B5AC0 /* Debug */,
+				272657D61D067667006B5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272657D71D067667006B5AC0 /* Build configuration list for PBXNativeTarget "softlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272657D81D067667006B5AC0 /* Debug */,
+				272657D91D067667006B5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272657A11D067667006B5AC0 /* Project object */;
+}
